@@ -1,0 +1,62 @@
+#board {
+	text-align: center;
+	background-image: url('../bg.jpg');
+	background-color: #96CDCD;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+#header{
+font-family: 'Frijole', cursive;
+	font-size: 64px;
+	margin: 0 auto;
+	text-align: center;
+}
+#description{
+	font-size: 48px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.sticky-note {
+  position: absolute;
+  width: 160px;
+  background-color: #FEF1B5;
+  box-shadow: -2px 2px 5px #555;
+  overflow: hidden;
+}
+#titlediv{
+	padding: 20px;
+	display: inline-block;
+	text-align: center;
+	margin-top: 15px;
+	background-color: #FEF1B5;
+	box-shadow: -2px 2px 5px #555;
+
+}
+.sticky-note .header {
+  background-color:#FEE5AC;
+  text-align: right;
+  padding: 2px;
+}
+
+.sticky-note .header:hover {
+  background-color: #FFFACD;
+}
+
+.sticky-note .header a, .sticky-note .header a:visited {
+  text-decoration: none;
+  color: #603311;
+  font-weight: bold;
+}
+
+.sticky-note .header a:hover {
+  color: #D19275;
+}
+
+.sticky-note .content {
+  padding: 10px;
+  min-height: 70px;
+  outline: none;
+}
