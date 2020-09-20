@@ -8,11 +8,13 @@
 }
 
 #header{
-font-family: 'Frijole', cursive;
+	font-family: 'Cabin Sketch', cursive;
 	font-size: 64px;
 	margin: 0 auto;
 	text-align: center;
+	text-transform: uppercase;
 }
+
 #description{
 	font-size: 48px;
 	margin: 0 auto;
@@ -21,11 +23,12 @@ font-family: 'Frijole', cursive;
 
 .sticky-note {
   position: absolute;
-  width: 160px;
+  width: 300px;
   background-color: #FEF1B5;
   box-shadow: -2px 2px 5px #555;
   overflow: hidden;
 }
+
 #titlediv{
 	padding: 20px;
 	display: inline-block;
@@ -33,30 +36,34 @@ font-family: 'Frijole', cursive;
 	margin-top: 15px;
 	background-color: #FEF1B5;
 	box-shadow: -2px 2px 5px #555;
-
 }
+
 .sticky-note .header {
-  background-color:#FEE5AC;
-  text-align: right;
-  padding: 2px;
+	background-color:#FEE5AC;
+	text-align: right;
+	padding: 2px;
 }
 
 .sticky-note .header:hover {
-  background-color: #FFFACD;
+	background-color: #FFFACD;
 }
 
 .sticky-note .header a, .sticky-note .header a:visited {
-  text-decoration: none;
-  color: #603311;
-  font-weight: bold;
+	text-decoration: none;
+	color: #603311;
+	font-weight: bold;
+	padding-right: 5px;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .sticky-note .header a:hover {
-  color: #D19275;
+	color: #D19275;
 }
 
 .sticky-note .content {
-  padding: 10px;
-  min-height: 70px;
-  outline: none;
+	padding: 10px;
+	min-height: 150px;
+	outline: none;
+	font-size: 24px;
+	text-align: left;
 }
